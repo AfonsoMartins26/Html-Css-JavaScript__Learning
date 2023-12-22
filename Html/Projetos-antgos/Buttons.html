@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <Title> Buttons in Html</Title>
+  </head>
+  <body> 
+    <a href="Lyrics.html">
+    <button style="font-size: 25px;background-color: grey;color: lightblue; border-radius: 25;">Click me </button>
+    </a>
+     
+    <button onclick="doSomething()" style="font-size: 25px;background-color: grey;color: lightblue; border-radius: 25;">Click me </button>
+     
+     <p id="greeting">HELLO</p>
+     
+     
+     <script>
+        function doSomething(){
+            document.getElementById("greeting").innerHTML = "Goodbye";
+        }
+      </script>
+  </body>
+</html>
