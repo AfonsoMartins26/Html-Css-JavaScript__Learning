@@ -1,0 +1,29 @@
+body{
+  background-color:white;
+  font-family: Roboto;
+}
+#h1 {
+  color: black;
+  font-family: sans-serif
+}
+#p1{
+  color: red;
+  font-family: verdana, arial; 
+}
+#p2{
+  color: rgb(102, 222,255);
+  font-family: "lucida console","courier new";
+  font-size:  16px;
+  font-weight: bold ;
+  font-style: normal; 
+}
+
+#p3{
+  color: #59ff5f;
+  font-family: Roboto ,Verdana, arial  ;
+  font-size: 1em;  /* 1em é como se fosse 100% do tamanho */
+  font-style: italic;
+}
+#p4{
+  color: hsl(283,100%,64%);
+}
