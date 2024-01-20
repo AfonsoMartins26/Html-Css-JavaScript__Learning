@@ -1,0 +1,96 @@
+body{
+  background-image: url(images/background.avif);  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size:cover ;
+}
+
+ /*imagem muito pequena por isso metemos esta condicao*/
+
+#p0{
+  color: turquoise;
+}
+#p1{
+  color: turquoise;
+}
+#p2{
+  color: turquoise;
+}
+#p3{
+  color: turquoise;
+}
+#p4{
+  color: turquoise;
+}
+#p5{
+  color: turquoise;
+}
+
+h1{
+  color: antiquewhite;
+}
+
+#container{
+  border: 2px solid;
+}
+
+#container p {
+  background-color: wheat;
+}
+
+#container > p {
+  background-color: red;
+}
+
+#container ~p {
+  background-color: blue;
+}
+
+#container +p {
+  background-color: white;
+}
+
+a:link {
+  color: blue;
+}
+
+a:hover{      /*se o rato estiver por cima == Hover */
+  color: red;
+  font-size: 1.1em;
+}
+
+a:active {
+  color: tomato;
+  font-size: 1.1em;
+}
+
+a:visited {
+  color: grey;
+}
+
+
+li:not(:hover) {
+  background-color: grey;
+}
+li:hover {
+  background-color: yellow;
+}
+
+
+li:nth-child(odd){
+  background-color: red;
+}
+li:nth-child(3n){
+  background-color: blue;
+}
+
+#greeting p {
+  background-color: lightcoral;
+  padding: 10px;
+  display: none;
+}
+
+#greeting:hover p{
+  display: block;
+}
