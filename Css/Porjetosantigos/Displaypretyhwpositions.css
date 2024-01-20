@@ -1,15 +1,73 @@
-div{
+*{   /*todos os elementos*/
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: grey;
+  height: 100vh;   /*100 por cento do espaco disponivel depois dos divs*/
+}
+#dv1{
   background-color: red;
   width: 100px;
   height: 100px;
-  display: inline-block  /* inline tambem existe e tambem existe none*/;
-  visibility: hidden;
+  display: inline-block; /* inline tambem existe e tambem existe none*/
+        /*visibility: hidden; vai desaparecer o bloco e o texto mas o espaco continua */
 }
 
-span {
+#span1 {
   background-color: blue;
   width: 100px;
   height: 100px;
   display: block;
 }
 
+.box{
+  background-color: white;
+  border: 2px solid;
+  height: auto;
+  width: 50%;
+  padding: 25px; /*espaco entre o texto e as bordas*/
+  float: left;
+  text-align: center;
+  max-height: 50%;
+}
+
+#box1 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: relative;
+  
+}
+
+#box2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
+
+#box3 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+}
+
+#box4 {
+  width: 100px;
+  height: 100px;
+  background-color: goldenrod;
+  position: sticky;
+  top: 0px;
+}
+
+
+#box5 {
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  position: static;   /*posicao default*/
+}
