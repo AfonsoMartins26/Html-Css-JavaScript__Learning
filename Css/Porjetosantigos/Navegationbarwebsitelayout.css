@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;    /* o que isto faz é basicamente quando tiver se a calcular a width já têm em conta o padding*/
+}
+
+body {
+  margin: 0px;
+}
+
+main {
+  margin-left:20px;
+  margin-right: 20px;
+}
+
+h1{
+  text-align: center;
+}
+/*navegation bar*/
+.navbar ul{
+  list-style-type:none;
+  background-color: rgb(109, 95, 95);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+/* para fazer uma navegation bar na vertical só perciso de tirar o overflow e o float*/
+
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover{
+  background-color: rgb(44, 44, 44);
+}
+
+.navbar li{
+  float: left;
+}
+
+/*Website layout*/
+
+header {
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 25px;
+}
+
+.navbar {
+  background-color: rgb(59, 59, 59);
+  height: 50px;
+}
+aside {
+  width: 20%;
+  float: left;
+  padding: 10px;
+}
+
+section{
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+
+article{
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+
+footer {
+  display: block;
+  clear: both;    /*serve para especificar o quê que acontece com os elementos float como temos both  não elementos nem á direita nem á esquerda*/
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 25px;
+}
+
+
+/*para telas de telemovel para o texto ficar organizado nesses despositivos*/
+@media screen and (max-width:600px) {
+  aside , section ,article {
+    width: 100%;
+  }
+}
