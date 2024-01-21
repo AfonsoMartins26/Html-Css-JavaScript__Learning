@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(121, 112, 112);
+}
+.gallary{
+  display: inline-block;
+  border: 1px solid rgb(117, 126, 117);
+  margin: 5px;
+}
+
+.gallary .descricao {
+  padding: 10px;
+  text-align: center;
+  font-family:Verdana; 
+}
+
+.gallary:hover {
+  border: 1px solid rgb(43, 38, 38);
+}
+.gallary img {
+  width: 100%;
+  height: auto;
+}
+/*icons*/
+.icons  {
+  text-align: center;
+}
+
+.fa-solid.fa-house.fa-5x {
+  color: antiquewhite;
+}
+
+.fa-solid.fa-house.fa-5x:hover {
+  color: rgb(104, 104, 104);
+  cursor: pointer;
+}
+
+.fa-brands.fa-github.fa-5x {
+  color: antiquewhite;
+}
+
+.fa-brands.fa-github.fa-5x:hover {
+  color: hsl(0, 0%, 41%);
+  cursor: pointer;
+}
+
+.fa-brands.fa-discord.fa-5x {
+  color: antiquewhite;
+}
+
+.fa-brands.fa-discord.fa-5x:hover {
+  color: hsl(0, 0%, 41%);
+  cursor: pointer;
+}
