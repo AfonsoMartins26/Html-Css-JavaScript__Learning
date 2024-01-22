@@ -1,20 +1,78 @@
 // isto é um comentário em linha em javascript
 /*
 isto é um comentário de varisa linhas em javascript
+é examatemte a mesma coisa que um comentário em css
 */
-/*console.log("I like pizza");  // a mensagem "I like pizza" vai aparecer na consola
-console.log("its really good");*/
- // window.alert("PIZZAAAAAAAAAAAAAAAAAAAA")  // isto vai criar um alerta na pagina a dizer pizzaaa
-// para abrir e executar um ficheiro tenho de abrir com o live server inspecionar a pagina 
-// e assim abrir a colsola e ver os resultados na pagina Html
-let  age;
-age=18;
+/*
+vai aparecer na consola
+console.log('Hello');
+console.log('I like pizza');
+
+vai aparecer um aviso na tela com o texto
+window.alert('Hello!');
+window.alert('I like pizza!');
+*/
+
+document.getElementById('myh1').textContent = 'Hello';
+document.getElementById('myp').textContent = 'I like pizza';
+
+//varáveis
+//declariton let x
+//assignment x = 100
+// let x =100
+
+let x; 
+x= 100;
+
+console.log(x);
+
+let age = 18; 
+
+console.log(typeof age);
+console.log(`You are ${age} years old`);
+console.log(`Your x value is ${x}`);
 
 let fistname = "Afonso";
 
-console.log(age);
-console.log("Hello",fistname)
+console.log(typeof fistname);
+console.log(`Your name is ${fistname}`);
 
-document.getElementById("p1").innerHTML = "Hello " + fistname;
-// document.write("Hello "+fistname);  escreve diretamente no html
-document.getElementById("p2").innerHTML = "You are " + age + " years old";
+
+let online = true; 
+
+console.log(`Afonso is online: ${online}`)
+
+
+document.getElementById("p1").textContent = `My name is ${fistname}`;
+document.getElementById("p2").textContent = `My age is ${age}`;
+document.getElementById("p3").textContent = `I am Online: ${online}`;
+
+// aritmetic operators 
+
+let students = 30; 
+
+//students = students + 1;
+//students = students - 1;
+//students = students * 2;
+//students = stundets / 2;
+//students = students **2; ao quadrado
+//students = students %2; o resto da divisao
+
+//uma forma mais rapida
+//students +=2;
+//students -=1;
+//students *=2;
+//students /=2;
+//students **=2;
+//students %=2;
+
+//adiciona/subtrai 1 
+//students++;
+//students--;
+
+console.log(students);
+
+let result = 1+2*3+4**2;
+
+console.log(result)
+
