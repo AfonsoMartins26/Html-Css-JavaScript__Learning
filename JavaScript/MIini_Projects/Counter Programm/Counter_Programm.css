@@ -1,0 +1,39 @@
+body{
+  background-image: url(images/680682-quadro-de-escola-preto-vazio-vetor.jpg);  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size:cover ;
+}
+
+
+#countlabel {
+  padding: 20px 20px ;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 10em;
+  font-family: Helvetica;
+  margin: auto;
+  margin-top: 300px;
+}
+
+#coitainer {  
+  text-align: center;
+  margin: auto;
+}
+
+
+.buttons {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  color: white;
+  background-color: hsl(240, 5%, 8%);
+  border-radius: 5px;
+  cursor:pointer ;
+  transition: backgound-color 0.25;
+}
+
+.buttons:hover {
+  background-color: rgb(0, 0, 0);
+}
